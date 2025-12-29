@@ -1,0 +1,289 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-functionality;login-with-valid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "name": "Login with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 876845300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"https://practicetestautomation.com/practice-test-login/\"",
+            "match": {
+              "location": "tests\\steps\\loginSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1997371200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I enter username \"student\"",
+            "match": {
+              "location": "tests\\steps\\loginSteps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 116798400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I enter password \"Password123\"",
+            "match": {
+              "location": "tests\\steps\\loginSteps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39799699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click on the login button",
+            "match": {
+              "location": "tests\\steps\\loginSteps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 941883599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should see the page containing \"Logged In Successfully\"",
+            "match": {
+              "location": "tests\\steps\\loginSteps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58117999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 739109900
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-functionality;login-with-valid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 13,
+        "name": "Login with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 846009200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"https://practicetestautomation.com/practice-test-login/\"",
+            "match": {
+              "location": "tests\\steps\\loginSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2014128500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I enter username \"student\"",
+            "match": {
+              "location": "tests\\steps\\loginSteps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 87354199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I enter password \"wrongpass\"",
+            "match": {
+              "location": "tests\\steps\\loginSteps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35738400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click on the login button",
+            "match": {
+              "location": "tests\\steps\\loginSteps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 95554799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should see the page containing \"Your password is invalid!\"",
+            "match": {
+              "location": "tests\\steps\\loginSteps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10714500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 573669200
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-functionality;login-with-valid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 14,
+        "name": "Login with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 862396099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"https://practicetestautomation.com/practice-test-login/\"",
+            "match": {
+              "location": "tests\\steps\\loginSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2032702900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I enter username \"wronguser\"",
+            "match": {
+              "location": "tests\\steps\\loginSteps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 82976900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I enter password \"Password123\"",
+            "match": {
+              "location": "tests\\steps\\loginSteps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37412899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click on the login button",
+            "match": {
+              "location": "tests\\steps\\loginSteps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 102912800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should see the page containing \"Your username is invalid!\"",
+            "match": {
+              "location": "tests\\steps\\loginSteps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11287900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 600146399
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login Functionality",
+    "tags": [],
+    "uri": "tests\\features\\login.feature"
+  }
+]
