@@ -18,7 +18,7 @@ jobs:
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
     - name: Run Playwright tests
-      run: npx cucumber-js --format json:reports/cucumber-report.json
+      run: npx cucumber-js
     - name: Generate HTML Report
       run: node generate-report.js
     - name: Upload Playwright Report
