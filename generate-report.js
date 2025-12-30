@@ -15,7 +15,7 @@ const options = {
   platform: {
     name: process.platform
   },
-  executed: 'Local'
+  executed: process.env.CI ? 'CI' : 'Local'
 }
 };
 
