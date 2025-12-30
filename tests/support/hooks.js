@@ -5,7 +5,6 @@ Before(async function () {
   const isCI = !!process.env.CI;
 
 this.browser = await chromium.launch({
-  channel: 'msedge',
   headless: isCI   // headless=true in GitHub Actions
 });
   this.context = await this.browser.newContext();
