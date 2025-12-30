@@ -4,7 +4,7 @@ const { chromium } = require('playwright');
 Before(async function () {
   this.browser = await chromium.launch({
     channel: 'msedge',
-    headless: false
+    headless: true
   });
 
   this.context = await this.browser.newContext();
