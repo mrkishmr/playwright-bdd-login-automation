@@ -8,10 +8,15 @@ const options = {
   scenarioTimestamp: true,
   launchReport: false,
   metadata: {
-    "Browser": "Edge",
-    "Platform": process.platform,
-    "Executed": "Local"
-  }
+  browser: {
+    name: 'Edge',
+    version: 'latest'
+  },
+  platform: {
+    name: process.platform
+  },
+  executed: 'Local'
+}
 };
 
 reporter.generate(options);
