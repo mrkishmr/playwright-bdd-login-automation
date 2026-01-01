@@ -61,6 +61,7 @@ Examples:
   | student   | wrongpass   | Your password is invalid! |
   | wronguser | Password123 | Your username is invalid! |
 
+```
 ## How to Run the Tests
 
 ## Install dependencies
