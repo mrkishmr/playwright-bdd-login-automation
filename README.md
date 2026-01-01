@@ -47,6 +47,7 @@ The following login scenarios are automated:
 
 ## Sample BDD Scenario
 
+```gherkin
 Scenario Outline: Login with different credential combinations
   Given I navigate to the login page
   And I enter username "<username>"
