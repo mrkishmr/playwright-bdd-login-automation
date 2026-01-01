@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1195366799
+              "duration": 4292215900
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1899670400
+              "duration": 2341791900
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 81076199
+              "duration": 101555200
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 29944600
+              "duration": 42152200
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 813226400
+              "duration": 795357599
             }
           },
           {
@@ -79,7 +79,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 28819500
+              "duration": 89969399
             }
           },
           {
@@ -87,7 +87,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 679270800
+              "duration": 550923300
             }
           }
         ],
@@ -106,7 +106,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 779230800
+              "duration": 873947000
             }
           },
           {
@@ -119,7 +119,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1995742200
+              "duration": 1925241400
             }
           },
           {
@@ -132,7 +132,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 57385899
+              "duration": 81486100
             }
           },
           {
@@ -145,7 +145,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 25981200
+              "duration": 29061100
             }
           },
           {
@@ -158,7 +158,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 80432600
+              "duration": 88895800
             }
           },
           {
@@ -171,7 +171,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 6618099
+              "duration": 8790999
             }
           },
           {
@@ -179,7 +179,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 522098500
+              "duration": 504159599
             }
           }
         ],
@@ -198,7 +198,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 815134299
+              "duration": 721503399
             }
           },
           {
@@ -211,7 +211,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1912614499
+              "duration": 1987408700
             }
           },
           {
@@ -224,7 +224,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 64485699
+              "duration": 118463999
             }
           },
           {
@@ -237,7 +237,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 25545900
+              "duration": 24476699
             }
           },
           {
@@ -250,7 +250,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 78010999
+              "duration": 112004199
             }
           },
           {
@@ -263,7 +263,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5586600
+              "duration": 9168200
             }
           },
           {
@@ -271,7 +271,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 555984100
+              "duration": 550047999
             }
           }
         ],
@@ -285,5 +285,82 @@
     "name": "Login Functionality",
     "tags": [],
     "uri": "tests\\features\\login.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "logout-functionality;user-logout",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "User Logout",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 750416900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user is logged into the website and is on the home page",
+            "match": {
+              "location": "tests\\steps\\logoutSteps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2762722000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user clicks on logout",
+            "match": {
+              "location": "tests\\steps\\logoutSteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 467916300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "user must return to the login page",
+            "match": {
+              "location": "tests\\steps\\logoutSteps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59345700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 503925100
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "logout-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Logout Functionality",
+    "tags": [],
+    "uri": "tests\\features\\logout.feature"
   }
 ]
