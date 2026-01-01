@@ -75,41 +75,41 @@ A JSON report is generated after test execution
 
 ## Browser Configuration
 
-Tests are executed on Microsoft Edge
-Browser configuration is managed through Playwright
-The framework can be extended to support additional browsers if required
+- Tests are executed on Microsoft Edge
+- Browser configuration is managed through Playwright
+- The framework can be extended to support additional browsers if required
 
 ## CI Integration
 
-Integrated with GitHub Actions
-Tests are executed automatically on code changes
-Stable and clean builds are tagged for reference
+- Integrated with GitHub Actions
+- Tests are executed automatically on code changes
+- Stable and clean builds are tagged for reference
 
 ## QA Practices Applied
 
 This project applies the following QA best practices:
 
-Behavior Driven Development (BDD)
-Positive and negative test scenario coverage
-Scenario Outline for data-driven testing
-Page Object Model for improved maintainability
-Clear separation of test logic and test data
-Reproducible test execution using CI
+- Behavior Driven Development (BDD)
+- Positive and negative test scenario coverage
+- Scenario Outline for data-driven testing
+- Page Object Model for improved maintainability
+- Clear separation of test logic and test data
+- Reproducible test execution using CI
 
 ## Limitations and Future Scope
 
 This project intentionally keeps the scope limited to focus on core learning objectives.
 
-Current limitations include:
+# Current limitations include:
 
-Functional coverage limited to login and logout scenarios
-No cross-browser execution
-No parallel test execution
-No advanced test data management
+- Functional coverage limited to login and logout scenarios
+- No cross-browser execution
+- No parallel test execution
+- No advanced test data management
 
 These areas provide clear opportunities for future enhancements as the framework evolves.
 
-Author
+## Author
 
-M R Kishan
-Quality Assurance Engineer
+- **Name:** M R Kishan
+- **Role:** Quality Assurance Engineer
