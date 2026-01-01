@@ -60,42 +60,41 @@ Examples:
   | student   | wrongpass   | Your password is invalid! |
   | wronguser | Password123 | Your username is invalid! |
 
-How to Run the Tests
+## How to Run the Tests
 
-Install dependencies
+## Install dependencies
 npm install
 
-Execute tests
+## Execute tests
 npx cucumber-js
 
-Test Reporting
+## Test Reporting
 A JSON report is generated after test execution
 
-Browser Configuration
+## Browser Configuration
+
 Tests are executed on Microsoft Edge
-
 Browser configuration is managed through Playwright
-
 The framework can be extended to support additional browsers if required
 
-CI Integration
+## CI Integration
+
 Integrated with GitHub Actions
 Tests are executed automatically on code changes
 Stable and clean builds are tagged for reference
 
-QA Practices Applied
+## QA Practices Applied
 
 This project applies the following QA best practices:
 
 Behavior Driven Development (BDD)
-
 Positive and negative test scenario coverage
 Scenario Outline for data-driven testing
 Page Object Model for improved maintainability
 Clear separation of test logic and test data
 Reproducible test execution using CI
 
-Limitations and Future Scope
+## Limitations and Future Scope
 
 This project intentionally keeps the scope limited to focus on core learning objectives.
 
@@ -111,4 +110,4 @@ These areas provide clear opportunities for future enhancements as the framework
 Author
 
 M R Kishan
-QA Engineer
+Quality Assurance Engineer
