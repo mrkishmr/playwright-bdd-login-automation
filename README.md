@@ -30,34 +30,6 @@ The primary goals of this project are to:
 
 ---
 
-## Project Structure
-
-├── features/
-│ ├── login.feature
-│ └── logout.feature
-│
-├── steps/
-│ ├── login.steps.js
-│ └── logout.steps.js
-│
-├── pages/
-│ ├── loginPage.js
-│ └── logoutPage.js
-│
-├── support/
-│ ├── hooks.js
-│ └── world.js
-│
-├── reports/
-│ └── cucumber-report.html
-│
-├── cucumber.js
-├── playwright.config.js
-├── generate-report.js
-└── README.md
-
----
-
 ## Functional Coverage
 
 ### Login
